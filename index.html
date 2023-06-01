@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML COLORS</title>
+    <style>
+      .container {
+        background-color: #1d2a35;
+        color: #fff;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+      h1 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #059862;
+        text-decoration: underline;
+      }
+      h2 {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+      }
+      .btn {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        margin-top: 40px;
+      }
+      #prev,
+      #next {
+        padding: 11px 18px;
+        font-size: 18px;
+        font-family: sans-serif;
+        color: #fff;
+        border: 1px solid #059862;
+        border-radius: 6px;
+        background-color: #0ab174;
+      }
+      #prev:hover {
+        background-color: #059862;
+        text-decoration: none;
+      }
+      #next:hover {
+        background-color: #059862;
+        text-decoration: none;
+      }
+      .p1 {
+        font-size: 16px;
+      }
+      .section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+        text-align: center;
+        font-size: 18px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .tomato {
+        border: 1px solid tomato;
+        padding: 40px;
+        width: 15%;
+        background-color: tomato;
+      }
+      .orange {
+        border: 1px solid orange;
+        padding: 40px;
+        width: 15%;
+        background-color: orange;
+      }
+      .dodgerblue {
+        border: 1px solid dodgerblue;
+        padding: 40px;
+        width: 15%;
+        background-color: dodgerblue;
+      }
+      .green {
+        border: 1px solid mediumseagreen;
+        padding: 40px;
+        width: 15%;
+        background-color: mediumseagreen;
+      }
+      .gray {
+        border: 1px solid gray;
+        padding: 40px;
+        width: 15%;
+        background-color: gray;
+      }
+      .slateblue {
+        border: 1px solid slateblue;
+        padding: 40px;
+        width: 15%;
+        background-color: slateblue;
+      }
+      .violet {
+        border: 1px solid #ee82ee;
+        padding: 40px;
+        width: 15%;
+        background-color: #ee82ee;
+      }
+      .lightgray {
+        border: 1px solid lightgray;
+        padding: 40px;
+        width: 15%;
+        color: #1d2a35;
+        background-color: lightgray;
+      }
+      p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+      }
+      .try {
+        margin-top: 35px;
+        margin-bottom: 50px;
+      }
+      #button {
+        text-decoration: none;
+        border: none;
+        background-color: #0ab174;
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: #fff;
+        font-weight: 700;
+        font-size: medium;
+      }
+      #button:hover {
+        background-color: #059862;
+      }
+      .cnames {
+        text-decoration: underline;
+      }
+      .cnames:hover {
+        color: #059862;
+      }
+      .p2 {
+        margin-top: 40px;
+        font-size: 15px;
+      }
+      hr {
+        border: 1px solid #38444d;
+      }
+      .functions {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 17px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: space-around;
+      }
+      #spaces,
+      #upgrade,
+      #news,
+      #certificate,
+      #error {
+        border: 1px solid #0d1721;
+        border-radius: 6px;
+        width: 15%;
+        height: 35px;
+        line-height: 2;
+        background-color: #0d1721;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      #spaces,
+      #upgrade,
+      #news,
+      #certificate,
+      #error:hover {
+        color: white;
+      }
+      .tutorials {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: gainsboro;
+        line-height: 2;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      li {
+        list-style-type: none;
+        font-size: 14px;
+      }
+      .abt {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+        opacity: 0.6;
+        margin-right: 8px;
+        font-size: 12px;
+        margin: 20px;
+      }
+      #forum,
+      #about {
+        text-decoration: none;
+      }
+      .p3 {
+        opacity: 0.6;
+        text-align: center;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <!--header start-->
+    <header class="header">
+      <h1>HTML Colors</h1>
+      <div class="btn">
+        <div>
+          <a href="" id="prev">&lsaquo; Previous</a>
+        </div>
+        <div>
+          <a href="" id="next">Next &rsaquo;</a>
+        </div>
+      </div>
+    </header>
+    <hr />
+    <p class="p1">
+      HTML colors are specified with predefined color names, or with RGB, HEX,
+      HSL, RGBA, or HSLA values.
+    </p>
+    <hr />
+    <!--starting color names-->
+    <h2>Color Names</h2>
+    <p>In HTML, a color can be specified by using a color name:</p>
+    <br />
+    <div class="section">
+      <div class="tomato">Tomato</div>
+      <div class="orange">Orange</div>
+      <div class="dodgerblue">DodgerBlue</div>
+      <div class="green">MediumSeaGreen</div>
+      <div class="gray">Gray</div>
+      <div class="slateblue">SlateBlue</div>
+      <div class="violet">Violet</div>
+      <div class="lightgray">LightGray</div>
+    </div>
+    <br /><br />
+    <div class="try">
+      <a id="button"> Try it Yourself &raquo;</a>
+    </div>
+    <p class="p2">
+      HTML supports
+      <a class="cnames" href="standardcolornames">140 standard color names.</a>
+    </p>
+    <hr />
+    <footer class="footer">
+      <div class="functions">
+        <a id="spaces" href="spaces">Spaces</a>
+        <a id="upgrade" href="upgrade">Upgrade</a>
+        <a id="news" href="newsletter">Newsletter</a>
+        <a id="certificate" href="getcertified">Get Certified</a>
+        <a id="error" href="reporterror">Report Error</a>
+      </div>
+      <hr />
+      <div class="tutorials">
+        <div>
+          <ul>
+            <h3>Top Tutorials</h3>
+            <li class="top"><a href="">Html Tutorial</a></li>
+            <li class="top"><a href="">CSS Tutorial</a></li>
+            <li class="top"><a href="">JavaScript Tutorial</a></li>
+            <li class="top"><a href="">How to Tutorial</a></li>
+            <li class="top"><a href="">SQL Tutorial</a></li>
+            <li class="top"><a href="">Python Tutorial</a></li>
+            <li class="top"><a href="">PHP tutorial</a></li>
+            <li class="top"><a href="">Bootstrap Tutorial</a></li>
+            <li class="top"><a href="">Java Tutorial</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h3>Top References</h3>
+            <li class="top"><a href="">Html Reference</a></li>
+            <li class="top"><a href="">CSS Reference</a></li>
+            <li class="top"><a href="">JavaScript Reference</a></li>
+            <li class="top"><a href="">SQL Reference</a></li>
+            <li class="top"><a href="">Python Reference</a></li>
+            <li class="top"><a href="">PHP Reference</a></li>
+            <li class="top"><a href="">Bootstrap Reference</a></li>
+            <li class="top"><a href="">Java Reference</a></li>
+            <li class="top"><a href="">C++ Reference</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h3>Top Examples</h3>
+            <li class="top"><a href="">Html Examples</a></li>
+            <li class="top"><a href="">CSS Examples</a></li>
+            <li class="top"><a href="">JavaScript Examples</a></li>
+            <li class="top"><a href="">SQL Examples</a></li>
+            <li class="top"><a href="">Python Examples</a></li>
+            <li class="top"><a href="">PHP Examples</a></li>
+            <li class="top"><a href="">Bootstrap Examples</a></li>
+            <li class="top"><a href="">Java Examples</a></li>
+            <li class="top"><a href="">C++ Examples</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <h3>Get Certificate</h3>
+            <li class="top"><a href="">Html Certificate</a></li>
+            <li class="top"><a href="">CSS Certificate</a></li>
+            <li class="top"><a href="">JavaScript Certificate</a></li>
+            <li class="top"><a href="">SQL Certificate</a></li>
+            <li class="top"><a href="">Python Certificate</a></li>
+            <li class="top"><a href="">PHP Certificate</a></li>
+            <li class="top"><a href="">Bootstrap Certificate</a></li>
+            <li class="top"><a href="">Java Certificate</a></li>
+            <li class="top"><a href="">C++ Certificate</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="abt">
+        <a id="forum" href="forum">FORUM </a>
+        |
+        <a id="about" href="about"> ABOUT</a>
+      </div>
+      <div>
+        <p class="p3">
+          W3Schools is optimized for learning and training. Examples might be
+          simplified to improve reading and learning. Tutorials, references, and
+          examples are constantly reviewed to avoid errors, but we cannot
+          warrant full correctness of all content. While using W3Schools, you
+          agree to have read and accepted our
+          <a href="/about/about_copyright.asp">terms of use</a> ,<a
+            href="/about/about_privacy.asp"
+          >
+            cookie and privacy policy.</a
+          >
+        </p>
+      </div>
+      <div>
+        <p class="p3">
+          <a href="/about/about_copyright.asp"> Copyright 1999-2023 </a>by
+          Refsnes Data. All Rights Reserved.
+        </p>
+      </div>
+      <div>
+        <p class="p3">
+          <a href="//www.w3schools.com/w3css/default.asp"
+            >W3Schools is Powered by W3.CSS.</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
